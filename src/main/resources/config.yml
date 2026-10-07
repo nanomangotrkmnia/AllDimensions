@@ -1,0 +1,12 @@
+enabled: false
+dimensions:
+  - minecraft:overworld
+  - minecraft:the_nether
+  - minecraft:the_end
+excluded-commands:
+  - alldim
+  - execute
+  - stop
+  - restart
+  - reload
+  - spark

@@ -1,0 +1,19 @@
+name: AllDimensions
+version: 1.0.0
+main: me.mango.alldim.AllDimensionsPlugin
+api-version: '1.21'
+author: mangoboi
+description: Runs each command in every dimension, toggleable with /alldim.
+commands:
+  alldim:
+    description: Manage all-dimension command mode.
+    usage: /alldim <on|off|status|reload>
+    permission: alldim.manage
+    permission-message: You do not have permission to use this command.
+permissions:
+  alldim.manage:
+    description: Allows toggling and reloading all-dimension mode.
+    default: op
+  alldim.use:
+    description: Allows a player's own commands to be applied to every dimension.
+    default: op
